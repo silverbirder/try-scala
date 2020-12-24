@@ -1,3 +1,6 @@
 object Main extends App {
-  println("Hello, World!")
+  println({
+    val x = 1 + 1
+    x + 1
+  })
 }
